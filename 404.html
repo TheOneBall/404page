@@ -139,6 +139,20 @@
       color: #856404;
       word-break: break-all;
     }
+    
+    .email-link {
+      color: #856404;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+    }
+    
+    .email-link:hover {
+      color: #704000;
+      border-bottom: 2px solid #704000;
+    }
 
     .home-button {
       display: inline-block;
@@ -200,9 +214,12 @@
     </div>
 
     <div class="email-section">
-      <span class="email-label">📧 Need help? Contact us:</span>
-      <span class="email-address">23f2004078@ds.study.iitm.ac.in</span>
-    </div>
+  <span class="email-label">📧 Need help? E-mail:</span>
+  <span class="email-address">
+    <a href="mailto:23f2004078@ds.study.iitm.ac.in" class="email-link">23f2004078@ds.study.iitm.ac.in</a>
+  </span>
+</div>
+
 
     <a href="https://theoneball.github.io/404page/" class="home-button">← Go Back Home</a>
   </div>
