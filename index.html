@@ -106,6 +106,19 @@
       padding: 20px;
       margin-top: auto;
     }
+    .email-link {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+    }
+
+    .email-link:hover {
+      color: #764ba2;
+      border-bottom: 2px solid #764ba2;
+    }
 
     @media (max-width: 768px) {
       .card {
@@ -133,10 +146,13 @@
         making it perfect for portfolios, documentation, and project showcases.
       </p>
 
-      <div class="email-section">
-        <class="email-label">📧 Contact Information:</class>
-        <class="email-address">23f2004078@ds.study.iitm.ac.in</class>
-      </div>
+        <div class="email-section">
+  <span class="email-label">📧 E-mail:</span>
+  <span class="email-address">
+    <a href="mailto:23f2004078@ds.study.iitm.ac.in" class="email-link">23f2004078@ds.study.iitm.ac.in</a>
+  </span>
+</div>
+
 
       <p class="intro">
         Want to see the custom 404 error page in action? 
